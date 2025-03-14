@@ -31,7 +31,7 @@ body {
 }
 
 main {
-  margin: 20px;
+  margin: 20px 40px;
 }
 
 .first-section {
@@ -73,7 +73,7 @@ main {
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
-section {
+#third-section-text {
   display: flex;
   padding: 0 12px;
   align-items: center;
@@ -82,7 +82,7 @@ section {
   font-size: 15px;
 }
 
-section a {
+#third-section-text a {
   text-decoration: none;
   font-size: 12px;
   font-weight: 750;
@@ -100,6 +100,34 @@ section a {
   width: 300px;
   margin-top: 0;
   border-radius: 15px;
+}
+
+.fourth-section {
+  margin-top: 25px;
+  border-radius: 3px;
+}
+
+.fourth-section-img {
+  width: 100%;
+}
+
+.fourth-section-text {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 10px;
+  margin-top: 0;
+}
+
+.fourth-section-text p {
+  margin-top: 0;
+}
+
+.fourth-section-text a {
+  text-decoration: none;
+  font-size: 12px;
+  font-weight: 750;
+  color: #277c8a;
+  padding-left: 10px;
 }
 
 footer {
