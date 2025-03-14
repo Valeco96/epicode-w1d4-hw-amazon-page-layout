@@ -19,13 +19,16 @@ body {
 .topbar ul {
   display: flex;
   justify-content: flex-start;
+  align-items: center;
+  width: 50%;
   margin: 0;
 }
 
 .topbar li {
   list-style: none;
   color: white;
-  padding-right: 25px;
+  padding-right: 10px;
+  padding-left: 10px;
   font-weight: 400;
   font-size: 11px;
 }
@@ -120,6 +123,7 @@ main {
 
 .fourth-section-text p {
   margin-top: 0;
+  font-size: 14px;
 }
 
 .fourth-section-text a {
