@@ -1,3 +1,48 @@
 body {
   font-family: Arial, Helvetica, sans-serif;
 }
+
+.background-logo {
+  background-color: #131922;
+}
+
+#topbar-logo {
+  width: 200px;
+  padding: 20px;
+}
+
+.topbar {
+  display: flex;
+}
+
+.topbar ul {
+  list-style: none;
+  padding: 0;
+  margin: 10px;
+}
+
+.topbar li {
+  flex-direction: row;
+}
+
+a {
+  padding: 40px;
+}
+
+footer {
+  text-align: center;
+}
+
+.bottom-bar {
+  background-color: #31414f;
+  padding: 8px 0;
+}
+
+#bottom-bar-link {
+  color: white;
+  font-weight: bold;
+}
+
+#bottom-bar-logo {
+  padding: 80px;
+}
