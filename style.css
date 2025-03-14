@@ -33,9 +33,16 @@ main {
   margin: 20px;
 }
 
-#lista-prova {
-  display: flex;
-  justify-content: space-between;
+.first-section {
+  background-color: #f1511d;
+  color: white;
+  text-align: center;
+  font-size: 15px;
+  font-weight: 500;
+}
+
+.first-section p {
+  padding: 4px 0;
 }
 
 footer {
